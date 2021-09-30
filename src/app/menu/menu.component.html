@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a id="logo" class="navbar-brand" routerLink="home" >Movie<span id="logo-s" class="navbar-brand"  routerLink="home" >+Music</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="sign">
+            <a class="nav-link active" aria-current="page" routerLink="peliculas">Películas</a>
+          </li>
+          <li class="sign">
+            <a class="nav-link active" aria-current="page" routerLink="music">Música</a>
+          </li>
+          <li id="sign" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Generos
+            </a>
+            <ul class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="gp" >Generos de películas</a></li>
+              <li><a class="dropdown-item" routerLink="gm" >Generos músicales</a></li>
+            </ul>
+          </li>
+          <li class="sign">
+            <a class="nav-link active" aria-current="page" href="{{data.url}}"  *ngFor="let data of datosMenu">{{data.titulo}}</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-light" type="buttonsubmit">Buscar</button>
+          <button class="btn btn-outline-light" type="submit">
+            <i class="fas fa-microphone 2x btn-outline-light"></i>
+          </button> 
+        </form>
+      </div>
+    </div>
+  </nav>
