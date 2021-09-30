@@ -58,6 +58,12 @@
 	border-color: #00a7ff; /* blue */
 }
 
+/*@media (min-width: 768px){
+	l#logo{
+		border-radius: 5px;
+	}
+}*/
+
 
 
 /* Cierro del estilo de menu*/

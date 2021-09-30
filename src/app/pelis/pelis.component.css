@@ -1,0 +1,19 @@
+#sombra{
+    border-radius: 50px;
+    background: #5d79a8;
+    box-shadow:  20px 20px 60px #4f678f,
+                 -20px -20px 60px #6b8bc1;
+}
+img{
+    border-radius: 40px;
+}
+.row{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+a{
+    border-radius: 50px;
+    background: #5d79a8;
+    box-shadow:  20px 20px 60px #4f678f,
+                 -20px -20px 60px #6b8bc1;
+}
