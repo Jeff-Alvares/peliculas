@@ -5,13 +5,15 @@ import { PelisComponent } from './pelis/pelis.component';
 import { MusicaComponent } from './musica/musica.component';
 import { GenerosPeliculasComponent } from './generos-peliculas/generos-peliculas.component';
 import { GenerosMusicalesComponent } from './generos-musicales/generos-musicales.component';
+import { ModalComponent } from './modal/modal.component';
 
 const routes: Routes = [
   {path: 'peliculas', component: PelisComponent },
   {path: 'music', component: MusicaComponent },
   {path: 'home', component: HomeComponent },
   {path: 'gp', component: GenerosPeliculasComponent },
-  {path: 'gm', component: GenerosMusicalesComponent }
+  {path: 'gm', component: GenerosMusicalesComponent },
+  {path: 'modal', component: ModalComponent }
 
 ];
 

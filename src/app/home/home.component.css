@@ -1,5 +1,47 @@
-.row{
-    margin-top:80px;
-    margin-left: 40px;
-    margin-right: 40px;
+.row {
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#img-music {
+  width: 175px;
+  height: 175px;
+  border-radius: 5%;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+#name-music {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+audio {
+  position: absolute;
+}
+
+#logo1 {
+  text-align: center;
+  line-height: 60px;
+  margin-left: 40px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00a7ff; /* blue */
+}
+
+#logo1:hover {
+  color: #eef9ff; /* white */
+}
+#logo-s1 {
+  color: #eef9ff; /* white */
+  margin-left: 5px;
+  font-size: 30px;
+}
+#logo1:hover #logo-s1 {
+  color: #00a7ff; /* blue */
 }

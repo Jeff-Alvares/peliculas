@@ -10,6 +10,7 @@ import { GenerosPeliculasComponent } from './generos-peliculas/generos-peliculas
 import { GenerosMusicalesComponent } from './generos-musicales/generos-musicales.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 
@@ -24,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
     GenerosMusicalesComponent,
     HomeComponent,
     FooterComponent,
+    ModalComponent,
     
   ],
   imports: [
